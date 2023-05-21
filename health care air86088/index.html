@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health care </title>
+</head>
+<script src="myscripts.js"></script>
+<script src="signIn.cpp"></script>
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.heading{
+  padding-bottom:50px;
+  display: block;
+  right: 5px;
+  width:200px;
+  height: 50px;;
+  border:5px solid rgb(0, 0, 0); 
+  position: relative;
+  text-align:center;
+  margin: bottom 0;;
+}
+.login-page {
+  width: 360px;
+  padding: 9% 0 0;
+  margin: auto;
+  padding-top: 12px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #9dd876;
+  max-width: 200px;
+  margin: 0 auto 200px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(10, 10, 10, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #fffcfc;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 18px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #000000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #fff8f8;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #ff0000;
+}
+.form .message {
+  margin: 25px 0 0;
+  color: #f9f9f9;
+  font-size: 20px;
+}
+.form .message a {
+  color: #ff3434;
+  text-decoration:underline;
+  padding: 20px;
+  
+}
+.form .register-form {
+  display:contents;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 200;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #000000;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #ff0808;
+}
+ body {
+  /* background: #fcfcfc; 
+  background: rgb(236, 236, 236);
+  background: linear-gradient(90deg, rgb(248, 246, 246) 0%, rgb(251, 250, 250) 50%); */ 
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  background-image: url('https://educaloi.qc.ca/wp-content/uploads/10069454_1200x563.jpg'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+
+  
+}
+</style>
+<body>
+   
+    <div class="login-page">
+        
+        <div class="form">
+        <div class="heading">
+          <h1><u>HEALTH CARE </u></h1>
+        
+          <form class="register-form">
+            <input type="text" placeholder="NAME"/>
+            <input type="password" placeholder="PASSWORD"/>
+            <input type="text" placeholder="EMAIL ID"/>
+            <input type="text" placeholder="DATE OF BIRTH"/>
+            <input type="text" placeholder="ADDRESS"/>
+            <input type="text" placeholder="PHONE NUMBER"/>
+
+            <button>create</button>
+            <p class="message">Already registered ? <a href="sign.html" rel="Sign In" target="_blank">Sign In</a></p>
+            
+          </form>
+        </div>
+      </div>
+</body>
+</html>
